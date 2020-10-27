@@ -1,3 +1,8 @@
+.container {
+    max-width: 1366px;
+    /* 1366x768 16:9 */
+}
+
 header, .mainContent, .row {
     max-width: 1200px;
     padding: 0 5px;
