@@ -1,6 +1,7 @@
 .container {
     max-width: 1366px;
     /* 1366x768 16:9 */
+    margin: auto;
 }
 
 header, .mainContent, .row {
@@ -13,6 +14,32 @@ header, .mainContent, .row {
     padding: 8px 0;
     height: auto;
     display: block;
+}
+
+.logo {
+    padding: 5px 0px;
+    flex-basis: 85%;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.loginLinks {
+    flex-basis: 15%;
+}
+
+.search {
+    padding: 5px 0;
+    flex-basis: 40%;
+}
+
+header {
+    justify-content: flex-end;
+    padding: 0 0 0 5px;
 }
 
 .mainNav .row ul {
