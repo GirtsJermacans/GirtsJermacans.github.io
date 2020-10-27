@@ -12,6 +12,7 @@ header, .mainContent, .row {
 .mainNav {
     padding: 8px 0;
     height: auto;
+    display: block;
 }
 
 .mainNav .row ul {
@@ -57,4 +58,4 @@ main {
 
 .burgerMenu {
     display: none;
-} 
+}
